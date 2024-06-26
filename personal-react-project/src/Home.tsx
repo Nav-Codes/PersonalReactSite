@@ -1,7 +1,10 @@
-import './Home.css'
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import 'bootstrap/dist/css/bootstrap.css'
+import './css/Home.css'
 import Navbar from './Navbar.tsx'
 
-function App() {
+function Home() {
   return (
     <>
       <Navbar />
@@ -18,4 +21,11 @@ function App() {
   )
 }
 
-export default App
+// export default Home
+
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
+    <Home />
+  </React.StrictMode>,
+)
+
