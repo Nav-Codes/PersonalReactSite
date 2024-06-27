@@ -1,5 +1,14 @@
-#about-me-image {
-  width: 26%;
-  height: 65%;
-  margin-top: -3%;
+@media screen and (min-width: 851px) {
+  #about-me-image {
+    width: 26%;
+    height: 65%;
+    margin-top: -14%;
+  }
+}
+
+@media screen and (max-width: 850px) and (min-width: 1px) {
+  #about-me-image {
+    width: 75%;
+    height: 80%;
+  }
 }

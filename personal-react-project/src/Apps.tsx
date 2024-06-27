@@ -30,6 +30,7 @@ function Apps() {
                         <br />
                         <div className="card">
                             <img src={app.image} className="card-img-top" alt={app.image} />
+                            <hr />
                             <div className="card-body">
                                 <h5 className="card-title">{app.appName}</h5>
                                 <p className="card-text">{app.description}</p>
