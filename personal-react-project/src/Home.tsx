@@ -21,7 +21,6 @@ function Home() {
   )
 }
 
-// export default Home
 let x = 5;
 function fun() {
   x *= 5;
@@ -32,7 +31,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <Navbar />
     <Home />
-    <Button label={'press me'} onButtonClick={fun}/>
+    <Button color={"success"} onButtonClick={fun}>press me</Button>
   </React.StrictMode>,
 )
 
