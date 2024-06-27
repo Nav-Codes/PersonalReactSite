@@ -1,11 +1,5 @@
-/* change styling of image when screen width is less than 850px */
-
 #about-me-image {
   width: 26%;
   height: 65%;
-  margin-top: -6%;
-}
-
-.navbar {
-  margin: 1%;
+  margin-top: -3%;
 }

@@ -1,0 +1,11 @@
+img {
+    border-color: gray;
+    border-width: 5px;
+    border-radius: 5px;
+}
+
+.card {
+    max-width: 18rem;
+    margin: 3%;
+    border-top: gray;
+}

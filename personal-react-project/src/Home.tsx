@@ -7,7 +7,6 @@ import Navbar from './Navbar.tsx'
 function Home() {
   return (
     <>
-      <Navbar />
       <div className="p-5 mb-4 bg-body-secondary rounded-3">
         <div className="container-fluid py-5">
           <h1 className="display-5 fw-bold">About me</h1>
@@ -25,6 +24,7 @@ function Home() {
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
+    <Navbar />
     <Home />
   </React.StrictMode>,
 )
