@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import 'bootstrap/dist/css/bootstrap.css'
 import './css/Home.css'
 import Navbar from './Navbar.tsx'
+import Button from './Button.tsx'
 
 function Home() {
   return (
@@ -21,11 +22,17 @@ function Home() {
 }
 
 // export default Home
+let x = 5;
+function fun() {
+  x *= 5;
+  console.log(x)
+}
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <Navbar />
     <Home />
+    <Button label={'press me'} onButtonClick={fun}/>
   </React.StrictMode>,
 )
 
